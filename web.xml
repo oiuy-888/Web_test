@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <Home_cfg name="Config">
+    <!--This is buttons config in Config-->
+    <Widget name="cancel">
+      <!--提示框中的取消-->
+      <Attribute>取消</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="IC_person_search">
+      <!--万象智慧工商信息查个人中的查询-->
+      <Attribute>html/body/div/div[7]/div/div[3]/div/form[2]/div/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="upload">
+      <!--上传个人授权文件-->
+      <Attribute>localUrl</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="half_year">
+      <!--个人监控期限默认为半年-->
+      <Attribute>html/body/div/div/table/tbody/tr[6]/td[4]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="judinfo">
+      <!--万象智慧司法信息-->
+      <Attribute>司法信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_card_input">
+      <!--万象智慧银联交易报告银行卡号输入-->
+      <Attribute>card_transaction</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="account_month_cost">
+      <!--本月账号消费统计-->
+      <Attribute>本月账号消费统计</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="req_id">
+      <!--身份证必填-->
+      <Attribute>identity_id-error</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="company_state">
+      <!--毛赛个人报告中的企业状态-->
+      <Attribute>在营（开业）</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="jud_details">
+      <!--万象智慧司法信息详情界面-->
+      <Attribute>司法类型</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PQCinfo">
+      <!--万象智慧职业资格证书-->
+      <Attribute>职业资格证书</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="3check">
+      <!--三维验证的绝对路径-->
+      <Attribute>html/body/div/div[7]/div/div/div[3]/form/div/div/div/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="jud_check_person">
+      <!--万象智慧中司法信息查个人-->
+      <Attribute>html/body/div/div[7]/div/div[4]/ul/li[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="account_year">
+      <!--近6个月统计-->
+      <Attribute>近六个月消费统计</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="hierarchy">
+      <!--关联图谱中的层级图验证点-->
+      <Attribute>层级图</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="setting_login">
+      <!--后台管理的登陆-->
+      <Attribute>html/body/div[3]/div/form/ul/li[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ATS_upload">
+      <!--万象智慧航空出行统计报告界面的上传授权文件-->
+      <Attribute>html/body/div/div[7]/div/div[11]/div/div/form/div[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PQC_excl_point">
+      <!--上传授权文件前刷新的叹号标识-->
+      <Attribute>html/body/div/div[7]/div/div[6]/div/div/form/div[3]/i</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PFT_select_input">
+      <!--万象智慧金融交易画像选择画像类型-->
+      <Attribute>select_financial</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_15">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[9]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="enroll">
+      <!--首页的注册-->
+      <Attribute>注册</Attribute>
+      <Method_sel>parlintext</Method_sel>
+    </Widget>
+    <Widget name="3name">
+      <!--三维验证姓名-->
+      <Attribute>html/body/div/div[7]/div/div/div[3]/form/div/div/ul/li/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_196">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[84]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="fixline_wrong_result">
+      <!--政企固话核查号码不存在-->
+      <Attribute>号码不存在</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_upload">
+      <!--银联交易报告界面的上传授权文件-->
+      <Attribute>html/body/div/div[7]/div/div[7]/div/div/form/div[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PFT_phone_input">
+      <!--万象智慧金融交易画像手机号输入-->
+      <Attribute>fin_phone</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="blacklistinfo">
+      <!--万象智慧网贷黑名单-->
+      <Attribute>网贷黑名单</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="example">
+      <!--样本-->
+      <Attribute>样本</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="4id">
+      <!--四维验证身份证号-->
+      <Attribute>html/body/div/div[7]/div/div/div/form/div/div/ul/li[2]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="4card">
+      <!--四维验证银行卡号-->
+      <Attribute>html/body/div/div[7]/div/div/div/form/div/div/ul/li[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="search">
+      <!--查询-->
+      <Attribute>//*[text()='查询']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="union_sid_input">
+      <!--万象联盟页面身份证号输入-->
+      <Attribute>allian_cid</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="tariff">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/dl/dd[4]/ul/li/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_28">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[19]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_186">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[81]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="IC_person_result">
+      <!--严益鸿个人报告验证点-->
+      <Attribute>漳州市阳益食品有限公司</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="charging_188">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[82]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="legal_person">
+      <!--企业报告中的法定代表人-->
+      <Attribute>html/body/div[2]/div[8]/div/div[2]/ul/li[4]/strong</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_30">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[21]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ATS_result">
+      <!--万象智慧航空出行统计报告-->
+      <Attribute>深航</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="My_account">
+      <!--查询我哦的账户-->
+      <Attribute>//span[contains(text(),'我的账户')]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="conmuse_result">
+      <!--消费统计栏-->
+      <Attribute>统计</Attribute>
+      <Method_sel>parlintext</Method_sel>
+    </Widget>
+    <Widget name="my_money">
+      <!--我的余额-->
+      <Attribute>consume_count_cor</Attribute>
+      <Method_sel>clsname</Method_sel>
+    </Widget>
+    <Widget name="PQC_cid_input">
+      <!--万象智慧职业资格证书身份证号输入-->
+      <Attribute>cid_cert</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="blacklist_cid_input">
+      <!--万象智慧网贷黑名单身份证号输入-->
+      <Attribute>cid_netloan</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="trad_result1">
+      <!--105220880430027商户交易报告验证点-->
+      <Attribute>64%</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="excel_batch">
+      <!--+ 上传Excel文件-->
+      <Attribute>localUrlXsl</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="union_report_3">
+      <!--万象联盟报告中失信老赖信息记录-->
+      <Attribute>html/body/div/div[3]/div[2]/h3[3]/span</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="union_report_2">
+      <!--万象联盟报告中被执行人信息记录-->
+      <Attribute>html/body/div/div[3]/div[2]/h3[2]/span</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="3phone">
+      <!--三维验证手机号-->
+      <Attribute>html/body/div/div[7]/div/div/div[3]/form/div/div/ul/li[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="union_report_1">
+      <!--万象联盟报告中网贷负面信息记录-->
+      <Attribute>html/body/div/div[3]/div[2]/h3/span</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="choose_obs">
+      <!--选择监控企业或者监控个人-->
+      <Attribute>选择监控企业或者监控个人</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="IC_check_company">
+      <!--万象智慧中工商信息查企业-->
+      <Attribute>html/body/div/div[7]/div/div[3]/ul/li</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="card_phone">
+      <!--银行卡号＋手机号-->
+      <Attribute>银行卡号＋手机号</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PFT_cid_input">
+      <!--万象智慧金融交易画像身份证号输入-->
+      <Attribute>fin_cid</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="lihongjie">
+      <!--企业查询报告检测点-->
+      <Attribute>李红杰</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="noenough_info">
+      <!--信息不足,不予评分-->
+      <Attribute>信息不足,不予评分</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="tradinfo">
+      <!--万象智慧商户交易分析-->
+      <Attribute>商户交易分析</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PFT_wrong_result">
+      <!--万象智慧金融交易画像-->
+      <Attribute>手机号一致，证件号和姓名不一致</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="3id">
+      <!--三维验证身份证号-->
+      <Attribute>html/body/div/div[7]/div/div/div[3]/form/div/div/ul/li[2]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="jud_company_input">
+      <!--司法信息-查企业输入框-->
+      <Attribute>orgname_elisor</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="jud_person_search">
+      <!--万象智慧司法信息查个人中的查询-->
+      <Attribute>html/body/div/div[7]/div/div[4]/div/div[2]/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="mobilephone">
+      <!--个人监控输入手机号栏-->
+      <Attribute>mobilePhone</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_202">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[88]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="agency_information">
+      <!--注册机构信息用于验证是否进入界面-->
+      <Attribute>机构注册信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="report_host">
+      <!--报告主体-->
+      <Attribute>报告主体：</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="charging_203">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[89]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="test_account">
+      <!--账户-->
+      <Attribute>account</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="setting_name_input">
+      <!--后台管理的账户-->
+      <Attribute>username</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="batch_upload_button">
+      <!--万象联盟页面批量添加数据-->
+      <Attribute>batchAddButton</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="wait_batch">
+      <!--正在查询中，请稍作等待...-->
+      <Attribute>正在查询中，请稍作等待...</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="add2contr">
+      <!--加入监控-->
+      <Attribute>加入监</Attribute>
+      <Method_sel>parlintext</Method_sel>
+    </Widget>
+    <Widget name="check">
+      <!--进入到查看详情界面-->
+      <Attribute>查看</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="4phone">
+      <!--四维验证手机号-->
+      <Attribute>html/body/div/div[7]/div/div/div/form/div/div/ul/li[4]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="2card">
+      <!--二维验证银行卡号-->
+      <Attribute>html/body/div/div[7]/div/div/div[2]/form/div/div/ul/li[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="info6">
+      <!--万象联盟页的包含内容提示-->
+      <Attribute>万象币</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="3errinfo1">
+      <!--三维验证失败提示（手机号不存在）-->
+      <Attribute>号码不存在</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="account_control">
+      <!--账户管理-->
+      <Attribute>账户管理</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="batch_upload_data">
+      <!--万象联盟页面批量添加数据-->
+      <Attribute>批量添加数据</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="info1">
+      <!--万象报告页的包含内容提示-->
+      <Attribute>包含内容：</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="start_obs">
+      <!--企业加入监控-->
+      <Attribute>加入监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="ICinfo">
+      <!--万象智慧工商信息-->
+      <Attribute>工商信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="info5">
+      <!--万象智慧页的包含内容提示-->
+      <Attribute>航空出行统计报告</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTRinfo">
+      <!--万象智慧银联交易报告-->
+      <Attribute>银联交易报告</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="info4">
+      <!--万象云盾页的包含内容提示-->
+      <Attribute>四维验证</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="info3">
+      <!--万象动察页的包含内容提示-->
+      <Attribute>选择监控企业或者监控个人</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="info2">
+      <!--万象评分页的包含提示内容-->
+      <Attribute>采用大数据建模技术，对个人信用相关的身份属性、信用记录、履约能力、行为特质和社交影响五大维度进行综合评估。</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="cid">
+      <!--万象报告中查个人填写的身份证号-->
+      <Attribute>cid</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="ATS_search">
+      <!--万象智慧航空出行统计报告界面的查询-->
+      <Attribute>html/body/div/div[7]/div/div[11]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="UPB_name_input">
+      <!--万象智慧银联账单核查姓名输入-->
+      <Attribute>name</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="UPB_cid_input">
+      <!--万象智慧银联账单核查身份证号输入-->
+      <Attribute>cid</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="ATS_cid_input">
+      <!--万象智慧航空出行统计报告身份证号输入-->
+      <Attribute>html/body/div/div[7]/div/div[11]/div/div/form/div/ul/li[2]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="4norecordinfo">
+      <!--库中无记录提示-->
+      <Attribute>库中无记录</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="manage_charing">
+      <!--计费管理-->
+      <Attribute>html/body/dl/dd[4]/div</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="update">
+      <!--立即更新-->
+      <Attribute>//*[text()='立即更新']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="2id">
+      <!--二维验证身份证号-->
+      <Attribute>html/body/div/div[7]/div/div/div[2]/form/div/div/ul/li[2]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="setting_password_input">
+      <!--后台管理的密码-->
+      <Attribute>password</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="req_name">
+      <!--姓名必填-->
+      <Attribute>name-error</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="union_wrong_result">
+      <!--万象联盟页面身份证有误-->
+      <Attribute>身份证有误</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="ATS_schedule_input">
+      <!--万象智慧航空出行统计报告查询周期输入-->
+      <Attribute>select_schedule</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="search2">
+      <!--万象评分界面的查询-->
+      <Attribute>queryScoreBtn</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="search1">
+      <!--万象报告个人查询界面的查询-->
+      <Attribute>queryPerReportBtn</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="PQC_result">
+      <!--李瑞琦职业资格证书验证点-->
+      <Attribute>吉林市职业技能鉴定中心</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="Home">
+      <!--首页-->
+      <Attribute>//*[text()='首页']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="UPB_search">
+      <!--万象智慧银联账单核查页面的查询-->
+      <Attribute>html/body/div/div[7]/div/div[10]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="2check">
+      <!--二维验证的绝对路径-->
+      <Attribute>html/body/div/div[7]/div/div/div[2]/form/div/div[2]/div/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="cidandfile_warn">
+      <!--上传的文件名必须和身份证号一致-->
+      <Attribute>上传的文件名必须和身份证号一致</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_result1">
+      <!--何浩银联交易报告验证点-->
+      <Attribute>VISA卡（VIS）银联标识卡</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_result2">
+      <!--孔祥街银联交易报告验证点-->
+      <Attribute>62银联标准卡</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="search_longtime">
+      <!--查询时间过长提示-->
+      <Attribute>认</Attribute>
+      <Method_sel>parlintext</Method_sel>
+    </Widget>
+    <Widget name="UPB_wrong_result">
+      <!--万象智慧银联账单核查信息不匹配提示-->
+      <Attribute>姓名-身份证不一致</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="req_phone">
+      <!--手机号必填-->
+      <Attribute>phone-error</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="beijingda">
+      <!--企业报告中的法定代表人跳转的企业-->
+      <Attribute>html/body/div[2]/div[8]/div/div[3]/div[4]/div/ul/li/h2/a/strong</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="tongwenzhou1">
+      <!--万象评分历史记录第一条-->
+      <Attribute>html/body/div/div[8]/div[2]/ul/li/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="UPB_card_input">
+      <!--万象智慧银联账单核查银行卡号输入-->
+      <Attribute>card</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="PFT_sele_four">
+      <!--万象智慧金融交易画像4-->
+      <Attribute>金融交易画像4--银行卡相关信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PFTinfo">
+      <!--万象智慧金融交易画像-->
+      <Attribute>金融交易画像</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="trad_cid_input">
+      <!--万象智慧商户交易分析商户编号输入-->
+      <Attribute>midpid</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="UTR_result">
+      <!--蒋承君银联交易报告验证点-->
+      <Attribute>荆州市</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="zip_batch">
+      <!--+ 上传授权文件压缩包-->
+      <Attribute>localUrlZip</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="contr_object">
+      <!--监控目标-->
+      <Attribute>监控目标</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UPBinfo">
+      <!--万象智慧银联账单核查-->
+      <Attribute>银联账单核查</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="IC_personid_input">
+      <!--工商信息-查个人证件号输入框-->
+      <Attribute>person_orgname_ic</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="konglingqiang">
+      <!--企业查询报告检测点-->
+      <Attribute>孔令强</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="blacklist_result">
+      <!--万象智慧网贷黑名单查看详情链接-->
+      <Attribute>报告时间：</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="obs_company">
+      <!--企业监控-->
+      <Attribute>企业监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="union_upload">
+      <!--万象联盟页面上传个人授权文件-->
+      <Attribute>html/body/div[2]/div[8]/div[2]/form/div/div/div/div[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="fixline_phone_input">
+      <!--万象智慧政企固话核查号码输入-->
+      <Attribute>fixedPhone</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="4check">
+      <!--四维验证的绝对路径-->
+      <Attribute>html/body/div/div[7]/div/div/div/form/div/div/div/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="IC_company_search">
+      <!--万象智慧工商信息查企业中的查询-->
+      <Attribute>查询</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="trad_result">
+      <!--111商户交易报告验证点-->
+      <Attribute>100%</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="check_company">
+      <!--万象报告中查企业-->
+      <Attribute>查企业</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="check_person">
+      <!--万象报告中查个人-->
+      <Attribute>查个人</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PFT_result">
+      <!--万象智慧金融交易画像报告验证点-->
+      <Attribute>核验结果</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="charging_129">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[58]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="user_login">
+      <!--验证是否跳转到用户名登录界面-->
+      <Attribute>//*[text()='用户名']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_244">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[110]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="obs_person1">
+      <!--个人监控图-->
+      <Attribute>img_person</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="enter">
+      <!--登录-->
+      <Attribute>button_id</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_241">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[107]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_242">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[108]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="tongwenzhou">
+      <!--查报告-查个人-历史记录第一条-->
+      <Attribute>html/body/div[3]/div[9]/div[2]/ul/li/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PFT_search">
+      <!--万象智慧金融交易画像界面的查询-->
+      <Attribute>html/body/div/div[7]/div/div[12]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_243">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[109]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="WXobserve">
+      <!--万象动察-->
+      <Attribute>//*[text()='万象动察']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="blacklist_search">
+      <!--万象智慧网贷黑名单界面的查询-->
+      <Attribute>html/body/div/div[7]/div/div[9]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="cost_remind0">
+      <!--通用界面的扣费提醒中的信息-->
+      <Attribute>html/body/div[3]/div[6]/div[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="company_web">
+      <!--公司网址用于检验是否进入界面-->
+      <Attribute>//*[text()='公司网址']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="trad_search">
+      <!--万象智慧商户交易分析中的查询-->
+      <Attribute>html/body/div/div[7]/div/div[5]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="cost_remind1">
+      <!--通用界面的扣费提醒中的信息-->
+      <Attribute>html/body/div[2]/div[6]/div[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_1">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[1]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="one_year">
+      <!--企业监控期限默认为一年-->
+      <Attribute>一年</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="maosai">
+      <!--企业报告中的董事长人选-->
+      <Attribute>html/body/div[2]/div[8]/div/div[3]/div/div[3]/ul/li/div[2]/p/a/strong</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="UPB_end_input">
+      <!--万象智慧银联账单核查结束时间输入-->
+      <Attribute>endDate</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="start_obs_batch">
+      <!--批量添加监控，开始批量监控-->
+      <Attribute>批量添加监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UPB_begin_input">
+      <!--万象智慧银联账单核查起始时间输入-->
+      <Attribute>beginDate</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="union_result">
+      <!--万象联盟出报告验证点-->
+      <Attribute>网贷逾期负面信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="phone">
+      <!--万象报告中查个人填写的手机号-->
+      <Attribute>phone</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="fixline_address_input">
+      <!--万象智慧政企固话核查地址输入-->
+      <Attribute>address</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="ATS_name_input">
+      <!--万象智慧航空出行统计报告姓名输入-->
+      <Attribute>html/body/div/div[7]/div/div[11]/div/div/form/div/ul/li/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="addtotail">
+      <!--加入监控-->
+      <Attribute>加入监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="fixline_right_result">
+      <!--政企固话核查全匹配-->
+      <Attribute>匹配成功</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="account_search_times">
+      <!--查询次数-->
+      <Attribute>html/body/div/div[2]/div[2]/div/div[2]/ul/li[3]/p</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="IC_company_input">
+      <!--工商信息-查企业输入框-->
+      <Attribute>orgname_ic</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="card">
+      <!--万象报告中查个人填写的银行卡号-->
+      <Attribute>card</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="PFT_name_input">
+      <!--万象智慧金融交易画像姓名输入-->
+      <Attribute>fin_name</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="PFT_upload">
+      <!--万象智慧金融交易画像界面的上传授权文件-->
+      <Attribute>html/body/div/div[7]/div/div[12]/div/div/form/div[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="search_batch">
+      <!--万象报告个人查询界面的批量查询-->
+      <Attribute>批量查询</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="IC_person_result2">
+      <!--李帅个人报告验证点-->
+      <Attribute>西宁金粉世界餐饮娱乐有限公司</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="more1">
+      <!--万象智慧工商信息页面的更多-->
+      <Attribute>更多</Attribute>
+      <Method_sel>parlintext</Method_sel>
+    </Widget>
+    <Widget name="req_card">
+      <!--银行卡号必填-->
+      <Attribute>card-error</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="2name">
+      <!--二维验证姓名-->
+      <Attribute>html/body/div/div[7]/div/div/div[2]/form/div/div/ul/li/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="login">
+      <!--起始页面登录跳转-->
+      <Attribute>//*[text()='登录']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="jud_check_company">
+      <!--万象智慧中司法信息查企业-->
+      <Attribute>html/body/div/div[7]/div/div[4]/ul/li</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="4errinfo">
+      <!--验证失败提示-->
+      <Attribute>验证失败</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="out">
+      <!--退出-->
+      <Attribute>退出</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="jud_personname_input">
+      <!--司法信息-查个人姓名输入框-->
+      <Attribute>name_elisor</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="obs_enturst">
+      <!--委托监控-->
+      <Attribute>委托监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="orgname">
+      <!--中诚信征信有限公司-->
+      <Attribute>orgName</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_105">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[50]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="union_money">
+      <!--万象联盟页面万象币-->
+      <Attribute>html/body/div[2]/div[8]/div/div/div[2]/p/span</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PFT_sele_ok">
+      <!--万象智慧金融交易画像中的确定-->
+      <Attribute>html/body/div/div[7]/div/div[12]/div/div/form/div/ul/li[4]/div[2]/div/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_108">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[53]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="obs_companyname">
+      <!--输入公司完整名称-->
+      <Attribute>orgname</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="IC_person_result1">
+      <!--张长校个人报告验证点-->
+      <Attribute>联冠物流(福建)股份有限公司</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="operatorinfo">
+      <!--万象智慧手机运营商信息-->
+      <Attribute>手机运营商信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="IC_default">
+      <!--检测历史默认在万象智慧-工商信息处-->
+      <Attribute>html/body/div/div[7]/div[2]/div[5]/div/div/table/tbody/tr/td[2]/p/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="jud_personcid_input">
+      <!--司法信息-查个人证件号输入框-->
+      <Attribute>cid_elisor</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="more">
+      <!--报告中的查看更多-->
+      <Attribute>html/body/div/div[3]/div/div/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="fixline_result">
+      <!--深圳市雅尊投资有限公司政企固话核查验证点-->
+      <Attribute>广东省深圳市龙华新区</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="locationinfo">
+      <!--万象智慧手机号码归属地信息-->
+      <Attribute>手机号码归属地信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="union_search">
+      <!--万象联盟页面的查询-->
+      <Attribute>html/body/div[2]/div[8]/div[2]/form/div/div/div/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="WXsmart">
+      <!--万象智慧-->
+      <Attribute>//*[text()='万象智慧']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="eduinfo">
+      <!--万象智慧学历信息-->
+      <Attribute>学历信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PQC_name_input">
+      <!--万象智慧职业资格证书姓名输入-->
+      <Attribute>name_cert</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_213">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[95]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="UTR_cid_input">
+      <!--万象智慧银联交易报告身份证号输入-->
+      <Attribute>cid_transaction</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_214">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[96]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="cost_remind">
+      <!--通用界面的扣费提醒中的确定-->
+      <Attribute>确定</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UPB_upload">
+      <!--银联账单核查界面的上传授权文件-->
+      <Attribute>html/body/div/div[7]/div/div[10]/div/div/form/div[3]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="WXunion">
+      <!--万象联盟-->
+      <Attribute>//*[text()='万象联盟']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="fixlineinfo">
+      <!--万象智慧政企固话核查-->
+      <Attribute>政企固话核查</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="data">
+      <!--最后更新日期-->
+      <Attribute>base_info_updata</Attribute>
+      <Method_sel>clsname</Method_sel>
+    </Widget>
+    <Widget name="obs_company1">
+      <!--企业监控图-->
+      <Attribute>img_entrty</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="obs_upload">
+      <!--批量添加监控，请上传Excel文件-->
+      <Attribute>localUrl</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="ls">
+      <!--账户名称-->
+      <Attribute>//*[text()='lishuai']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="3.00">
+      <!--3.00万注册资本-->
+      <Attribute>3.00 万元（人民币）</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="trad_name_input">
+      <!--万象智慧商户交易分析姓名输入-->
+      <Attribute>mname</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="company_report">
+      <!--查看企业信用报告-->
+      <Attribute>//*[text()='查看企业信用报告']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ICinfo2">
+      <!--监控类型的绝对路径-->
+      <Attribute>html/body/div/div[2]/table/tbody/tr[4]/td[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="no_result">
+      <!--没有查询到结果-->
+      <Attribute>没有查询到结果</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="80.00">
+      <!--80.00万注册资本-->
+      <Attribute>80.00 万元</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="ICinfo3">
+      <!--监控类型的绝对路径-->
+      <Attribute>html/body/div/div[2]/table/tbody/tr[5]/td[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ICinfo1">
+      <!--监控类型的绝对路径-->
+      <Attribute>html/body/div/div[2]/table/tbody/tr[3]/td[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="--">
+      <!--企业监控的到期日显示-->
+      <Attribute>--</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="ATSinfo">
+      <!--万象智慧航空出行统计报告-->
+      <Attribute>航空出行统计报告</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="charging_50">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[25]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="account_month">
+      <!--本月统计-->
+      <Attribute>本月消费统计</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="WXreport">
+      <!--万象报告-->
+      <Attribute>//*[text()='万象报告']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="uploadinfo">
+      <!--上传个人授权文件状态提示-已上传-->
+      <Attribute>个人授权文件已上传</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="PFT_sele_three">
+      <!--万象智慧金融交易画像3-->
+      <Attribute>金融交易画像3--1年内的信用卡信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="blacklist_name_input">
+      <!--万象智慧网贷黑名单姓名输入-->
+      <Attribute>name_netloan</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="person_name">
+      <!--万象报告中查个人填写的姓名-->
+      <Attribute>name</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="upload_batch">
+      <!--批量上传-->
+      <Attribute>batchQueryPerReport</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="4name">
+      <!--四维验证姓名-->
+      <Attribute>html/body/div/div[7]/div/div/div/form/div/div/ul/li/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="union_name_input">
+      <!--万象联盟页面姓名输入-->
+      <Attribute>allian_name</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="3errinfo">
+      <!--三维验证失败提示（手机号存在）-->
+      <Attribute>手机号一致，证件号和姓名不一致</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="fixline_name_input">
+      <!--万象智慧政企固话核查名称输入-->
+      <Attribute>cname</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="report_time">
+      <!--董事长人选个人工商信息报告的报告时间-->
+      <Attribute>报告时间：</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_search">
+      <!--万象智慧银联交易报告的查询-->
+      <Attribute>html/body/div/div[7]/div/div[7]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="fixline_search">
+      <!--政企固话核查页面的查询-->
+      <Attribute>html/body/div/div[7]/div/div[8]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="account_year_cost">
+      <!--近6个月账号消费统计-->
+      <Attribute>近6个月账号消费统计</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="obs_batch">
+      <!--企业监控界面的批量添加监控-->
+      <Attribute>批量添加监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UPB_result">
+      <!--万象智慧银联账单核查验证成功-->
+      <Attribute>农业银行</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="name_card">
+      <!--姓名＋银行卡号-->
+      <Attribute>姓名＋银行卡号</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="IC_check_person">
+      <!--万象智慧中工商信息查个人-->
+      <Attribute>html/body/div/div[7]/div/div[3]/ul/li[2]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="account_week">
+      <!--本周统计-->
+      <Attribute>本周消费统计</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="4sucinfo">
+      <!--验证成功提示-->
+      <Attribute>匹配成功</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_phone_input">
+      <!--万象智慧银联交易报告手机号输入-->
+      <Attribute>mobile_transaction</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="test_password">
+      <!--密码-->
+      <Attribute>pwd_input_ip</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="2phone">
+      <!--二维验证手机号-->
+      <Attribute>html/body/div/div[7]/div/div/div[2]/form/div/div/ul/li[4]/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ok1">
+      <!--查询时间过长提示栏的确认-->
+      <Attribute>认</Attribute>
+      <Method_sel>parlintext</Method_sel>
+    </Widget>
+    <Widget name="IC_personname_input">
+      <!--工商信息-查个人姓名输入框-->
+      <Attribute>person_name_ic</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_821">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[208]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ok3">
+      <!--加入监控的确定-->
+      <Attribute>html/body/div/div[5]/div/div/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PQC_search">
+      <!--万象智慧职业资格证书中的查询-->
+      <Attribute>html/body/div/div[7]/div/div[6]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PFT_sele_two">
+      <!--万象智慧金融交易画像2-->
+      <Attribute>金融交易画像2--近3个月的借记卡信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="ok2">
+      <!--加入监控的确定-->
+      <Attribute>html/body/div[8]/div/div/input</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="search_batch1">
+      <!--万象报告个人查询界面上传文件后的批量查询-->
+      <Attribute>batchQueryPerReport</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="charging_69">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[41]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="account_expend">
+      <!--消费金额-->
+      <Attribute>html/body/div/div[2]/div[2]/div/div[2]/ul/li[2]/p</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="ok">
+      <!--提示框中的确定-->
+      <Attribute>确定</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="ATS_wrong_result">
+      <!--万象智慧航空出行统计报告-->
+      <Attribute>身份验证失败</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="charging_141">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[61]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_142">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[62]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="WXgrade">
+      <!--万象评分-->
+      <Attribute>//*[text()='万象评分']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="reg_num">
+      <!--注册号-->
+      <Attribute>注册号</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="charging_140">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[60]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="charging_75">
+      <!--计费管理下的费率表-->
+      <Attribute>html/body/div[2]/form/table/tbody/tr[43]/td[10]</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="penging">
+      <!--企业监控状态的待处理-->
+      <Attribute>待处理</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="uploadinfo1">
+      <!--上传个人授权文件状态提示-未上传（未使用）-->
+      <Attribute>授权文件不存在，</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="personal_business_info_report">
+      <!--工商信息报告（个人）标题-->
+      <Attribute>工商信息报告（个人）</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="name_id">
+      <!--姓名＋身份证号-->
+      <Attribute>姓名＋身份证号</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="obs_person">
+      <!--个人监控-->
+      <Attribute>个人监控</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="UTR_name_input">
+      <!--万象智慧银联交易报告姓名输入-->
+      <Attribute>name_transaction</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="batch_upload">
+      <!--万象联盟页面批量上传链接-->
+      <Attribute>localUrl1</Attribute>
+      <Method_sel>id</Method_sel>
+    </Widget>
+    <Widget name="union_excl_point">
+      <!--万象联盟页面文件上传处的小叹号-相当于刷新-->
+      <Attribute>html/body/div[2]/div[8]/div[2]/form/div/div/div/div[3]/i</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="close_batch">
+      <!--万象联盟页面批量上传后的关闭-->
+      <Attribute>html/body/div[2]/div[15]/h2/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="account_week_cost">
+      <!--本周账号消费统计-->
+      <Attribute>本周账号消费统计</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+    <Widget name="WXcloud">
+      <!--万象云盾-->
+      <Attribute>//*[text()='万象云盾']</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="2dim_choose">
+      <!--二维验证类型选择-->
+      <Attribute>html/body/div/div[7]/div/div/div[2]/form/div/div</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="jud_company_search">
+      <!--万象智慧司法信息查企业中的查询-->
+      <Attribute>html/body/div/div[7]/div/div[4]/div/div/form/div/div[2]/a</Attribute>
+      <Method_sel>xpath</Method_sel>
+    </Widget>
+    <Widget name="PFT_sele_one">
+      <!--万象智慧金融交易画像1-->
+      <Attribute>金融交易画像1--近1年的借记卡信息</Attribute>
+      <Method_sel>xpaths</Method_sel>
+    </Widget>
+  </Home_cfg>
+</root>
