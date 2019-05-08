@@ -12,4 +12,4 @@ https://github.com/oiuy-888/Web_test_git/blob/master/web自动化结构.png
 
 4.在testsuit中添加测试用例case，实现对用例方法的调用并输出用例名称等必要日志便于测试报告记录；
 
-5.在ui中通过javax.swing添加操作接面（必要性不高）
+5.在ui中通过javax.swing添加操作接面（必要性不高），另外测试资源存储在pic文件夹下，运行日志则会生成log文件夹进行存储
